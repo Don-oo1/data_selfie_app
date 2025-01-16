@@ -1,0 +1,11 @@
+div{
+    margin: 10px;
+   
+}
+
+.container{
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: fit-content;
+}

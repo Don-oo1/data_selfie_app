@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Don-oo1/data_selfie_app#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "nedb": "^1.8.0"
   }
 }

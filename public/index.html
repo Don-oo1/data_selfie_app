@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>hello word</h1>
+    <h1>Data Selfie App</h1>
+    <div id="links">
+   <a href="index.html">capture</a> | <a href="./log/index.html">lists</a>
+    </div>
+    <div id="input-area">
+        <label for="mood">Mood:</label>
+        <input id="mood" type="text">
+    </div>
+    <div id="possition-area">
+    <div><span id="latitude"></span>°, <span id="longitude"></span>°</div>
+    </div>
+    
+    <div id="date-time"></div>
+
+    <button id="check-in">check in </button>
     
 </body>
 </html>
